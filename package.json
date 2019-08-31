@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@mixer/chat-client-websocket": "1.0.1",
-    "deepmerge": "^1.4.4",
+    "deepmerge": "^4.0.0",
     "request": "^2.79.0",
     "ws": "^1.1.5"
   },
