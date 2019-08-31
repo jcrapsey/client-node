@@ -61,7 +61,7 @@ export declare class OAuthProvider extends Provider {
     /**
      * Unpacks data from a token response.
      */
-    private unpackResponse;
+    private unpackResponse(res);
     /**
      * Attempts to authenticate based on a query string, gotten from
      * redirecting back from the authorization url (see .getRedirect).

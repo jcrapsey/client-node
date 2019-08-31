@@ -9,7 +9,7 @@ import { GameService } from './services/Game';
  * Main client.
  */
 export declare class Client {
-    private requestRunner?;
+    private requestRunner;
     private provider;
     private userAgent;
     urls: {
@@ -25,7 +25,7 @@ export declare class Client {
      * and dispatching requests to the API.
      */
     constructor(requestRunner?: IRequestRunner);
-    private buildUserAgent;
+    private buildUserAgent();
     /**
      * Sets the the API/public URLs for the client.
      */
